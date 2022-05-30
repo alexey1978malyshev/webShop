@@ -1,2 +1,2 @@
-Eshop
-img
+/(Eshop)
+/(img)
