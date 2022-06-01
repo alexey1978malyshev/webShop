@@ -9,12 +9,20 @@ body{
 }
 h1,h2{color: #00008b;
 }
-input{
-    color: #313101;
+input[type="text"],[type="email"]{
+    background-color: #dad6d6;
+    color: #161601;
     font-size: 14px;
     font-family: "Times New Roman";
-    font-weight: 600;
-}
+    text-transform: capitalize;
+    }
+    textarea{background-color: #dad6d6;
+        color: #161601;
+        font-size: 14px;
+        font-family: "Times New Roman";
+        text-transform: capitalize;}
+
+
 a:hover{
     color: #02312d;
 }
@@ -68,7 +76,11 @@ h1{font-family: "Malgun Gothic";
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-}
+    }
+.shortDescribeText::first-letter, .describeText::first-letter,.productFeatures::first-letter{
+    color: #0eddf8;
+    font-size: 28px;
+    }
 .describeText{
     color: #484343;
     font-size: 16px;
@@ -86,7 +98,19 @@ h1{font-family: "Malgun Gothic";
     border: 3px double  #00a8e1;
 
 }
-
+.emailstyle:focus{
+    background-color: #8cecd5;
+    color: #313101;
+    font-size: 14px;
+    font-family: "Times New Roman";
+    font-weight: 600;
+}
+.shortDescribeText ::first-letter{
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 24; 
+    color: red;
+    
+}
 
 
 footer{
