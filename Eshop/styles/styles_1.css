@@ -7,7 +7,7 @@ body{
     font-weight: normal;
     font-family: "Calibri Light";
 }
-h1,h2{color: darkblue;
+h1,h2{color: #00008b;
 }
 input{
     color: #313101;
@@ -15,12 +15,25 @@ input{
     font-family: "Times New Roman";
     font-weight: 600;
 }
+a:hover{
+    color: #02312d;
+}
+
 .title {
     width: 600px;
     height: 200px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
 }
+
+.logo {
+    
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.mrefstyle a:hover{color: #02312d;}
+
 .mrefstyle > p1 {
     list-style-image: url("../../img/preview/home.jpg");
 }
@@ -73,7 +86,6 @@ h1{font-family: "Malgun Gothic";
     border: 3px double  #00a8e1;
 
 }
-
 
 
 
