@@ -1,0 +1,85 @@
+header{
+    background-color: rgba(35, 95, 128, 0.66);
+}
+body{
+    background: #f8f8f8;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Calibri Light";
+}
+h1,h2{color: darkblue;
+}
+input{
+    color: #313101;
+    font-size: 14px;
+    font-family: "Times New Roman";
+    font-weight: 600;
+}
+.title {
+    width: 600px;
+    height: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+.mrefstyle > p1 {
+    list-style-image: url("../../img/preview/home.jpg");
+}
+.mrefstyle > p2 {
+    list-style-image: url("../../img/preview/catalog.jpg");
+}
+.mrefstyle > p3 {
+    list-style-image: url("../../img/preview/contacts.jpg");
+}
+.mrefstyle li a {
+    font-family: "BankGothic Md BT", Italic;
+    font-size: 25px;
+    font-weight: 400;
+    color: #8cecd5;
+    border-radius: 35px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    }
+h1{font-family: "Malgun Gothic";
+    box-shadow: 8px 8px 24px rgba(0,0,0,0.25);
+    border-radius: 18px;
+    border-style: double;}
+
+
+.describeTitles{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shortDescribeText{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.describeText{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.productFeatures{
+    color: #756e6e;
+    font-weight: 600;
+    list-style-image: url("../../img/preview/cube.jpg");
+    line-height: 24px;
+}
+.image img {
+    border: 3px double  #00a8e1;
+
+}
+
+
+
+
+footer{
+    font-size: smaller;
+    text-decoration-line: underline;
+    background-color: rgba(35, 95, 128, 0.66);
+
+}
