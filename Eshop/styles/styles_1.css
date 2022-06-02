@@ -108,7 +108,7 @@ h1{font-family: "Malgun Gothic";
 .shortDescribeText ::first-letter{
     font-family: "Times New Roman", Times, serif; 
     font-size: 24; 
-    color: red;    
+    color: rgb(38, 0, 255);    
 }
 .tabProductFeatures tr td{
     background-color: #cfcfe4;
