@@ -2,7 +2,7 @@ header{
     background-color: rgba(35, 95, 128, 0.66);
 }
 body{
-    background: #f8f8f8;
+    background: #e4e2e2;
     font-size: 16px;
     font-weight: normal;
     font-family: "Calibri Light";
@@ -40,7 +40,7 @@ a:hover{
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
 }
 
-.mrefstyle a:hover{color: #02312d;}
+.mrefstyle a:hover{color: #050786;}
 
 .mrefstyle > p1 {
     list-style-image: url("../../img/preview/home.jpg");
@@ -69,7 +69,7 @@ h1{font-family: "Malgun Gothic";
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: #a5a3a3;
 }
 .shortDescribeText{
     color: #707070;
@@ -108,8 +108,16 @@ h1{font-family: "Malgun Gothic";
 .shortDescribeText ::first-letter{
     font-family: "Times New Roman", Times, serif; 
     font-size: 24; 
-    color: red;
-    
+    color: red;    
+}
+.tabProductFeatures tr td{
+    background-color: #cfcfe4;
+    text-align: center;
+      
+   
+}
+.tabProductFeatures caption{
+    background-color: #cfcfe4;
 }
 
 
