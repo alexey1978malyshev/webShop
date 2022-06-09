@@ -1,5 +1,15 @@
-header{
+
+.container {
+    position: absolute;
+    margin: 0 20px;
+    /*width: 1920px;*/
+    left: 5px;
+    right: 5px;
+    
+}
+.header{
     background-color: rgba(35, 95, 128, 0.66);
+    height: fit-content;
 }
 body{
     background: #e4e2e2;
