@@ -8,7 +8,7 @@
     
 }
 .header{
-    //background-color: rgba(35, 95, 128, 0.66);
+    background-color: rgba(35, 95, 128, 0.66);
     height: fit-content;
 
 }
@@ -18,7 +18,7 @@
     height: 450px;
     background-image: url("../../img/backgr.jpg");
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 body{
     background: #e4e2e2;
@@ -110,14 +110,17 @@ a:hover{
     font-family: "BankGothic Md BT", Italic;
     font-size: 25px;
     font-weight: 800;
-    color: #042d7c;
+    color: #00008b;
     border-radius: 35px;
+    background-color: rgba(114, 114, 227, 0.4);
     box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
     }
 h1{font-family: "Malgun Gothic";
     box-shadow: 8px 8px 24px rgba(0,0,0,0.25);
     border-radius: 18px;
-    border-style: double;}
+    border-style: double;
+    font-weight: 800;
+}
 
 
 .describeTitles{
