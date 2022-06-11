@@ -8,32 +8,34 @@
   <title>Розетка</title>
   <link rel="stylesheet" href="styles/styles_1.css">
 </head>
-<div class="header">
-<h1>Интернет-магазин "ЭлектроДом"</h1>
-<h1>Меню:</h1>
-<table cellspacing="25">
-  <tr>
-    <td>
-      <ul class="mrefstyle">
-        <p1><li><a href="../index.html">Главная</a></li></p1>
-        <p2><li><a href="catalog.html">Каталог</a></li></p2>
-        <p3><li><a href="contacts.html">Контакты</a></li></p3>
-      </ul>
-    </td>
-    <td style="width: 400px;">      
-    </td>
-    <td >
-      <img src="../img/logo.jpg" alt="наш ЭлектроДом" class="logo" >
-    </td>
-  </tr>
-</table>
+<div class="header" >
+
+  <h1>Меню:</h1>
+  <div class="menu" >
+    <ul class="mrefstyle">
+      <p1><li><a href="../index.html">Главная</a></li></p1>
+      <p2><li><a href="catalog.html">Каталог</a></li></p2>
+      <p3><li><a href="contacts.html">Контакты</a></li></p3>
+    </ul>
+  </div>
+  <div class="logo"></div>
+
 </div>
 <body>
 <h2 class="describeTitles">Описание товара:</h2>
-<p class="image"><a href="../img/розетка.webp" target="_blank"><img src="../img/розетка.webp" width="350" height="" alt="Розетка DIN" title="Розетка DIN"></a></p>
-<p class="shortDescribeText"> Розетка штепсельная DIN РДЕ-47 EKF PROxima (mdse-47-pro)
- </p>
-
+<div class="describeAndImage">
+    <div class="image">
+      <a href="../img/розетка.webp" target="_blank"><img src="../img/розетка.webp" width="350" height="" alt="Розетка DIN" title="Розетка DIN"></a>
+    </div>
+    <div class="shortDescribeText">
+      <b>Розетка штепсельная</b> DIN РДЕ-47 <br> EKF PROxima (mdse-47-pro)
+    </div>
+    <form action="bin.html" >
+      <div class="btnBuy">
+        <input type="submit" value="Купить">
+      </div>
+    </form>
+</div>
 <h2 class="describeTitles">Характеристики товара:</h2>
 <p  class="productFeatures">
   Розетка для установки на DIN-рейку  предназначена для установки в распределительный щит и служит для подключения переносного<br>
@@ -69,11 +71,11 @@
     Использование светодиодной лампы вместо неоновой (ЛС-47, ЛСФ-47). Увеличенная жесткость за счет применения шести заклепок <br>
     на корпусе. Оптимизация габаритов изделий (ЛС-47) – экономия места в щитке</p>
 <hr>
-  <footer>
-    <p>&copy;Все права защищены <br>
-      <img src="../img/homa.webp" width="50" height="" title="злобный хомяк">
-      Копирование и распространение информации возможны только с разрешения <b> хомяка!</b>
-    </p>
-  </footer>
+<div  class = "footer">
+  <p>&copy;Все права защищены <br>
+    <img src="../img/homa.webp" width="50" height="" title="злобный хомяк"><br>
+    Копирование и распространение информации возможны только с разрешения <b> хомяка!</b>
+  </p>
+</div>
 </body>
 </html>

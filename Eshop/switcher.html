@@ -11,32 +11,35 @@
 
 </head>
 
-<div class="header">
-<h1>Интернет-магазин "ЭлектроДом"</h1>
-<h1>Меню:</h1>
-<table cellspacing="25">
-  <tr>
-    <td>
-      <ul class="mrefstyle">
-        <p1><li><a href="../index.html">Главная</a></li></p1>
-        <p2><li><a href="catalog.html">Каталог</a></li></p2>
-        <p3><li><a href="contacts.html">Контакты</a></li></p3>
-      </ul>
-    </td>
-    <td style="width: 400px;">      
-    </td>
-    <td >
-      <img src="../img/logo.jpg" alt="наш ЭлектроДом" class="logo" >
-    </td>
-  </tr>
-</table>
+<div class="header" >
+
+  <h1>Меню:</h1>
+  <div class="menu" >
+    <ul class="mrefstyle">
+      <p1><li><a href="../index.html">Главная</a></li></p1>
+      <p2><li><a href="catalog.html">Каталог</a></li></p2>
+      <p3><li><a href="contacts.html">Контакты</a></li></p3>
+    </ul>
+  </div>
+  <div class="logo"></div>
 </div>
 <body>
 <h2 class="describeTitles">Описание товара:</h2>
-<p class ="image"><a href="../img/switcher1.webp" target="_blank" ><img src="../img/switcher1.webp" width="350" height="" alt="выключатель 1кл." title="выключатель 1кл."></a></p>
-<p class="shortDescribeText"> <b>Одноклавишный выключатель</b>  - коммутационное устройство, позволяющие включать или выключать <br>
-  электрические приборы различного назначения.
-</p>
+<div class="describeAndImage">
+  <div class="image">
+    <a href="../img/switcher1.webp" target="_blank" ><img src="../img/switcher1.webp" width="350" height="" alt="выключатель 1кл." title="выключатель 1кл."></a>
+  </div>
+  <div class="shortDescribeText">
+    <b>Одноклавишный выключатель</b>  - коммутационное устройство, <br>
+    позволяющие включать или выключать <br>
+    электрические приборы различного назначения.
+  </div>
+  <form action="bin.html" >
+    <div class="btnBuy">
+      <input type="submit" value="Купить">
+    </div>
+  </form>
+</div>
 <h2 class="describeTitles">Характеристики товара:</h2>
 <p class="productFeatures">К основным техническим характеристикам одноклавишных выключателей бытового назначения относят: </p>
 <ol class="productFeatures">
@@ -77,11 +80,11 @@
 </ul>
 
 <hr>
-<footer>
+<div  class = "footer">
   <p>&copy;Все права защищены <br>
-    <img src="../img/homa.webp" width="50" height="" title="злобный хомяк">
+    <img src="../img/homa.webp" width="50" height="" title="злобный хомяк"><br>
     Копирование и распространение информации возможны только с разрешения <b> хомяка!</b>
   </p>
-</footer>
+</div>
 </body>
 </html>

@@ -8,8 +8,17 @@
     
 }
 .header{
-    background-color: rgba(35, 95, 128, 0.66);
+    //background-color: rgba(35, 95, 128, 0.66);
     height: fit-content;
+
+}
+.header .banner{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../img/backgr.jpg");
+    background-size: cover;
+    opacity: 0.5;
 }
 body{
     background: #e4e2e2;
@@ -34,7 +43,7 @@ input[type="text"],[type="email"]{
 
 
 a:hover{
-    color: #02312d;
+    color: #050786;
 }
 
 .title {
@@ -43,14 +52,50 @@ a:hover{
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
 }
+.header .hatVeiw{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    max-width: 770px;
+    display: inline-block;
+}
+.header .greeting{
+    position: relative;
+    width: 258px;
+    height: 200px;
+    left: 15px;
+    display: inline-block;
 
-.logo {
-    
-    border-radius: 28px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+.header .menu{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+}
+.header .menu ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+.header > h1{
+    text-align: end;
+    padding-left: 100px;
 }
 
-.mrefstyle a:hover{color: #050786;}
+.header .logo {
+    border-radius: 11px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+    position: relative;
+    background-image: url("../../img/logo.jpg");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 213px;
+    right: 0;
+    display: inline-block;
+    margin-left: 149px;
+    margin-bottom: 1px;
+}
+
+.mrefstyle a:hover{color: #2a2ce8;}
 
 .mrefstyle > p1 {
     list-style-image: url("../../img/preview/home.jpg");
@@ -64,8 +109,8 @@ a:hover{
 .mrefstyle li a {
     font-family: "BankGothic Md BT", Italic;
     font-size: 25px;
-    font-weight: 400;
-    color: #8cecd5;
+    font-weight: 800;
+    color: #042d7c;
     border-radius: 35px;
     box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
     }
@@ -81,16 +126,56 @@ h1{font-family: "Malgun Gothic";
     font-weight: 400;
     background-color: #a5a3a3;
 }
-.shortDescribeText{
-    color: #707070;
+.describeAndImage .image{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    max-width: 250px;
+    display: inline-block;
+    padding-right: -20px;
+}
+.describeAndImage .shortDescribeText{
+    color: #4a4949;
     font-size: 14px;
     font-style: italic;
-    line-height: 16px;
+    line-height: 37px;
+    position: relative;
+    top: -48px;
+    left: 143px;
+    max-width: 250px;
+    display: inline-block;
     }
 .shortDescribeText::first-letter, .describeText::first-letter,.productFeatures::first-letter{
     color: #0eddf8;
     font-size: 28px;
     }
+.describeAndImage .btnBuy{
+    position: relative;
+    width: fit-content;
+    left: 20px;
+}
+.describeAndImage .btnBuy input{
+    color: #050786;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(3, 43, 65, 0.23);
+    font-family: "Times New Roman";
+    border-radius: 12px;
+
+}
+.describeAndImage .btnBuy input:hover{
+    color: rgba(217, 217, 234, 0.95);
+    background-color: rgba(8, 45, 229, 0.85);
+
+}
+.items{
+    position: relative;
+    width: fit-content;
+}
+.item1,.item2,.item3{
+    display: inline-block;
+    margin-left: 20px;
+}
 .describeText{
     color: #484343;
     font-size: 16px;
@@ -117,7 +202,7 @@ h1{font-family: "Malgun Gothic";
 }
 .shortDescribeText ::first-letter{
     font-family: "Times New Roman", Times, serif; 
-    font-size: 24; 
+    font-size: 24px;
     color: rgb(38, 0, 255);    
 }
 .tabProductFeatures tr td{
@@ -131,9 +216,27 @@ h1{font-family: "Malgun Gothic";
 }
 
 
-footer{
+.footer{
     font-size: smaller;
     text-decoration-line: underline;
-    background-color: rgba(35, 95, 128, 0.66);
+    background-color: rgba(56, 137, 182, 0.55);
+    height: fit-content;
+    padding: 15px 15px;
+}
+.footer p{
+    text-align: right;
+}
+.bin{
+
+    width: 300px;
+    height: 250px;
+    background: #e4e2e2;
+
+}
+.bin .binImage{
+    position: absolute;
+    width: 290px;
+    height: 240px;
+    background-image: url("../../img/binImage.png");
 
 }
