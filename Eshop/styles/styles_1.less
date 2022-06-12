@@ -1,0 +1,250 @@
+@var1: #e4e2e2;
+@var2: #00008b;
+@var3: #dad6d6;
+@var4: #161601;
+@var5: #050786;
+@var6: #2a2ce8;
+@var7: #000000;
+@var8: #a5a3a3;
+@var9: #4a4949;
+@var10: #0eddf8;
+@var11: #484343;
+@var12: #756e6e;
+@var13: #00a8e1;
+@var14: #8cecd5;
+@var15: #313101;
+@var16: #cfcfe4;
+
+.container {
+  position: absolute;
+  margin: 0 20px;
+  width: 1920px;
+  left: 5px;
+  right: 5px;
+}
+/*width: 1920px;*/
+
+.header {
+  background-color: rgba(35, 95, 128, 0.66);
+  height: fit-content;
+  .banner {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../img/backgr.jpg");
+		background-size: cover;
+		opacity: 0.7;
+	}
+	.hatVeiw {
+		position: relative;
+		top: 15px;
+		left: 15px;
+		max-width: 770px;
+		display: inline-block;
+	}
+	.greeting {
+		position: relative;
+		width: 258px;
+		height: 200px;
+		left: 15px;
+		display: inline-block;
+	}
+	.menu {
+		display: inline-block;
+		position: absolute;
+		right: 150px;
+      .mrefstyle a:hover {
+        color: @var6;
+      }
+      .mrefstyle :nth-child(1) {
+        list-style-image: url("../../img/preview/home.jpg");
+      }
+      .mrefstyle :nth-child(2) {
+        list-style-image: url("../../img/preview/catalog.jpg");
+      }
+      .mrefstyle :nth-child(3) {
+        list-style-image: url("../../img/preview/contacts.jpg");
+      }
+      .mrefstyle li a {
+        font-family: "BankGothic Md BT", Italic;
+        font-size: 25px;
+        font-weight: 800;
+        color: @var2;
+        border-radius: 35px;
+        background-color: rgba(114, 114, 227, 0.4);
+        box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+      }
+		ul li {
+			display: inline-block;
+			margin: 0 30px;
+		}
+	}
+	> h1 {
+		text-align: end;
+		padding-left: 100px;
+	}
+	.logo {
+		border-radius: 11px;
+		box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+		position: relative;
+		background-image: url("../../img/logo.jpg");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 213px;
+    right: 0;
+    display: inline-block;
+    margin-left: 149px;
+    margin-bottom: 1px;
+  }
+}
+body {
+  background: @var1;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Calibri Light";
+}
+h1, h2 {
+  color: @var2;
+}
+input[type="text"], [type="email"] {
+  background-color: @var3;
+  color: @var4;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  text-transform: capitalize;
+}
+textarea {
+  background-color: @var3;
+  color: @var4;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  text-transform: capitalize;
+}
+a:hover {
+  color: @var5;
+}
+.title {
+  width: 600px;
+  height: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+	font-family: "Malgun Gothic";
+	box-shadow: 8px 8px 24px rgba(0,0,0,0.25);
+	border-radius: 18px;
+	border-style: double;
+	font-weight: 800;
+}
+.describeTitles {
+	color: @var7;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: @var8;
+}
+.describeAndImage .image {
+	position: relative;
+	top: 15px;
+	left: 15px;
+	max-width: 250px;
+	display: inline-block;
+	padding-right: -20px;
+}
+.describeAndImage .shortDescribeText {
+	color: @var9;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 37px;
+	position: relative;
+	top: -48px;
+	left: 143px;
+	max-width: 250px;
+	display: inline-block;
+}
+.shortDescribeText::first-letter, .describeText::first-letter, .productFeatures::first-letter {
+	color: @var10;
+	font-size: 28px;
+}
+.describeAndImage .btnBuy {
+	position: relative;
+	width: fit-content;
+	left: 20px;
+	input {
+		color: @var5;
+		font-size: 18px;
+		font-weight: 600;
+		background-color: rgba(3, 43, 65, 0.23);
+		font-family: "Times New Roman";
+		border-radius: 12px;
+		&:hover {
+			color: rgba(217, 217, 234, 0.95);
+			background-color: rgba(8, 45, 229, 0.85);
+		}
+	}
+}
+.items {
+	position: relative;
+	width: fit-content;
+}
+.item1, .item2, .item3 {
+	display: inline-block;
+	margin-left: 20px;
+}
+.describeText {
+	color: @var11;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.productFeatures {
+	color: @var12;
+	font-weight: 600;
+	list-style-image: url("../../img/preview/cube.jpg");
+  line-height: 24px;
+}
+.image img {
+  border: 3px double  @var13;
+}
+.emailstyle:focus {
+  background-color: @var14;
+  color: @var15;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  font-weight: 600;
+}
+.shortDescribeText ::first-letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: rgb(38, 0, 255);
+}
+.tabProductFeatures tr td {
+  background-color: @var16;
+  text-align: center;
+}
+.tabProductFeatures caption {
+  background-color: @var16;
+}
+.footer {
+  font-size: smaller;
+  text-decoration-line: underline;
+  background-color: rgba(56, 137, 182, 0.55);
+  height: fit-content;
+  padding: 15px 15px;
+  p {
+    text-align: right;
+  }
+}
+.bin {
+  width: 300px;
+  height: 250px;
+  background: @var1;
+
+  .binImage {
+    position: absolute;
+    width: 290px;
+    height: 240px;
+    background-image: url("../../img/binImage.png");
+	}
+}
